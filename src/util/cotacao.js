@@ -1,5 +1,4 @@
 const request = require('request')
-const moment = require('moment')
 
 const api_url = 'http://api.marketstack.com/v1/eod?'
 const api_token = 'c5e4cca2984795252f4199f9e3ea635b'
@@ -25,11 +24,7 @@ const cotacao = (symbol, callback) => {
 
         const parsedJSON = response.body.data[0]
         const {symbol, open, close, high, low} = parsedJSON
-        // const data = {
-        //     symbol: parsedJSON[0].symbol,
-        //     date: moment(parsedJSON[0].date,'YYYY-MM-DDTHH:mm:ss+0000').format('DD/MM/YYYY'),
-        //     price: `R$ ${parsedJSON[0].close}`
-        // }
+        
         callback(undefined,{symbol, open, close, high, low})
     })
 }

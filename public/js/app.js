@@ -1,5 +1,4 @@
-// const { response } = require("express")
-// console.log('javascript ok')
+
 
 const cotacoesForm = document.querySelector('form')
 const mensagemPrincipal = document.querySelector('h3')
