@@ -1,0 +1,85 @@
+.titulo-pagina {
+    font-size: 64px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+body {
+    color: salmon;
+    background-color:  rgb(245, 197, 174);
+    font-family: arial;
+    /* max-width: 650px; */
+    margin: 5px;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+} 
+h3 {
+    font-size: 26px;
+    margin-bottom: 5px;
+} 
+
+.linkscontainer{
+    text-align: center;
+}
+
+.links {
+    color: #fd4b77fa;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#rodape {
+    color: #888888;
+    border-top: 1px solid #8a8989;
+    margin-top: 20px;
+    padding: 0px 0px;
+    position: absolute;
+	bottom: 0;
+}
+#conteudo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagem {
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    /* margin-left: auto;
+    margin-right: auto;  */
+}
+#img-dinheiro {
+    /* position: relative; 
+    float: left; */
+    width:70px;
+    margin: 20px;
+}
+
+input{
+    border: 1px solid #d3d0d0;
+    background: rgb(245, 226, 217); 
+    font-size: 16px;
+}
+
+button{
+    cursor: pointer;
+    border: 1.5px solid #d3d0d0;
+    background: salmon;
+    color: #e9e8e8;
+    font-size: 16px;
+}
+
+
+
+
+
+

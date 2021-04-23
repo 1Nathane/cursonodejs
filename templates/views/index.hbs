@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+        
+    </head>
+
+    <body>
+        {{> header}}
+        <div id="conteudo-pagina">
+            <h1>Procure por um ativo</h1>
+            <form>
+                <input type="text" placeholder="Código do ativo">
+                <button>Procurar</button>
+            </form>
+
+            <img id="img-dinheiro" src="/img/comment-dollar-solid.svg">
+            <h3></h3>
+            <div id="primeira-linha"></div>
+                <p id="close"></p>
+            </div> 
+            <div id="primeira-linha">
+                <p id="open"></p>
+            </div> 
+            <div id="primeira-linha">
+                <p id="high"></p>
+            </div> 
+            <div id="primeira-linha">
+                <p id="low"></p>
+            </div>         
+            
+        </div>
+        {{> footer}}
+    </body>
+    <script src="./js/app.js"></script>
+</html>
