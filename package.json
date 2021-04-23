@@ -1,15 +1,25 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nathane",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Nathane/app_aula_node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1Nathane/app_aula_node/issues"
+  },
+  "homepage": "https://github.com/1Nathane/app_aula_node#readme",
+  "description": ""
 }
